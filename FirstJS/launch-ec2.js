@@ -33,7 +33,6 @@ var ec2 = new AWS.EC2({apiVersion: '2016-11-15'});
  * Node JS has to run on 8080, and HTTP requests (port 80) are routed to 8080
  */
 
-
 var instanceParams = {
    ImageId: 'ami-47d7752c', 
    InstanceType: 't1.micro',
